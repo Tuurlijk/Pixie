@@ -182,7 +182,9 @@ class BaseCommand extends Command
                 $configuration[$expectedKey] = escapeshellarg($configuration[$expectedKey]);
             }
         }
-        $configuration['database'] = $this->sanitizeDatabaseConfiguration($configuration['database']);
+        if (isset($configuration['database'])) {
+            $configuration['database'] = $this->sanitizeDatabaseConfiguration($configuration['database']);
+        }
         return $configuration;
     }
 
