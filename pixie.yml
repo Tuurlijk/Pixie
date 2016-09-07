@@ -17,3 +17,14 @@ sites:
       password: supersecret
       admin_username: root
       admin_password: supersecret
+  example:
+    username: www-data
+    host: some.dev.pixie.io
+    root: /var/www
+    directory: some.dev.pixie.io
+    database:
+      platform: mysql
+      host: localhost
+      username: pixie_usr
+      password: &F&nxqL27WTk&P[My2%m8b96yG#6#/W4
+      database: pixie_dev
