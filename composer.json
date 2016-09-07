@@ -1,0 +1,34 @@
+{
+  "name": "maxserv/pixie",
+  "description": "Manage local development environments",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michiel Roos",
+      "email": "michiel@maxserv.com",
+      "homepage": "https://www.maxserv.com"
+    }
+  ],
+  "keywords": ["TYPO3 CMS", "local"],
+  "version": "0.0.1",
+  "autoload": {
+    "psr-4": {
+      "MaxServ\\Pixie\\": "src/Pixie"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist"
+  },
+  "require": {
+    "php": "^5.3.2 || ^7.0",
+    "symfony/console": "^3.0",
+    "symfony/process": "^3.0",
+    "symfony/yaml": "^3.0",
+    "backup-manager/backup-manager": "^1.1",
+    "bamarni/symfony-console-autocomplete": "^1.2",
+    "seld/cli-prompt": "^1.0",
+    "geerlingguy/ping": "^1.0"
+  }
+}

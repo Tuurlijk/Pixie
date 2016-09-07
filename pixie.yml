@@ -1,0 +1,19 @@
+defaults:
+  username: vagrant
+  host: local.typo3.org
+  root: /var/www
+
+sites:
+  localhost:
+    root: ~/Projects/TYPO3/Development
+  homestead:
+    username: vagrant
+    host: local.typo3.org
+    root: /var/www
+    directory:
+    database:
+      platform: mysql
+      username: typo3
+      password: supersecret
+      admin_username: root
+      admin_password: supersecret

@@ -1,0 +1,8 @@
+/.settings
+/.project
+/.buildpath
+/pixie.phar
+/vendor
+/nbproject
+.idea
+.php_cs.cache

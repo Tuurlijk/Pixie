@@ -1,0 +1,24 @@
+{
+  "chmod": "0755",
+  "datetime": "release_date",
+  "directories": [
+    "src"
+  ],
+  "files": [
+    "LICENSE"
+  ],
+  "finder": [
+    {
+      "name": "*.php",
+      "exclude": [
+        "Tests"
+      ],
+      "in": "vendor"
+    }
+  ],
+  "git-commit-short": "package_version",
+  "git-version": "package_branch_alias_version",
+  "main": "bin/pixie",
+  "output": "pixie.phar",
+  "stub": true
+}
